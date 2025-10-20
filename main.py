@@ -11,8 +11,8 @@ from sklearn.pipeline import Pipeline
 import uvicorn
 
 # Paths
-DATASET_PATH = Path("D:\shiva-py\spam-msd-detector\spam.csv")
-MODEL_PATH = Path("D:\shiva-py\spam-msd-detector\spam_pipeline.joblib")
+DATASET_PATH = Path("spam.csv")
+MODEL_PATH = Path("spam_pipeline.joblib")
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
